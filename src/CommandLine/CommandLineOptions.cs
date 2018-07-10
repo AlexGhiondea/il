@@ -10,6 +10,6 @@ namespace Il.CommandLine
 
         [CommonArgument]
         [RequiredArgument(0, "input", "The input file")]
-        public string Host { get; set; }
+        public string InputFile { get; set; }
     }
 }
