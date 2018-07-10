@@ -7,7 +7,5 @@ branches:
   - master
 
 configuration: Release
-before_build:
-- cmd: dotnet restore
 build_script:
 - cmd: build.cmd Release
